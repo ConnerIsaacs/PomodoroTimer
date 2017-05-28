@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+<div class="header">
+  <p id="pomodoro">Pomodoro Timer</p>
+  <p id="credit">Made by Conner Isaacs</p>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-sm-8 col-xs-12 body">
+      <center>
+        <p id="whatDoing">Currently: <strong>Studying</strong></p>
+        <p class="message" id="minute">25</p><p class="message">:</p><p class="message" id="second">00</p>
+        <hr>
+      </center>
+      
+      <p id="session">Session Length:</p>
+      <input type="range" name="points" id="points" value="25" min="0" max="100" id="sessionTime" class="slider1">
+      <br>
+      <p id="session">Break Length:</p>
+      <input type="range" name="points" id="points" value="5" min="0" max="100" id="breakTime" class="slider2">
+      <br>
+      <center><p id="start">Start</p></center>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
